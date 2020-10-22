@@ -23,4 +23,5 @@ const isCool = function(person) {
 	return person.coolnessScore > 20;
 }
 
-// Your code goes here
+const coolPeople = people.filter(isCool);
+console.log(coolPeople);
